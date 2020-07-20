@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>codeQuiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <button id="highscore">View highscore</button>
+    <h1 id="quizTitle">JavaScript Quiz</h1>
+    <h4 id="timer">Timer:<span id = "timerSpan"></span></h4>
+  </header>
+
+  <div class="container">
+      <div id="question-container" class="hide">
+          <div id="question">Question</div><hr>
+          <div id="answer-buttons" class="btn-grid">
+              <button class="btn1">Answer 1</button><br><hr>
+              <button class="btn2">Answer 2</button><br><hr>
+              <button class="btn3">Answer 3</button><br><hr>
+              <button class="btn4">Answer 4</button><br><hr>
+          </div>
+      </div>
+      <div class="controls">
+          <button id = "start-btn" class = "start-btn btn">Start Quiz</button>
+          <button id = "next-btn" class = "next-btn btn hide">Next</button>
+      </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="question.js"></script>
+</body>
+</html>
